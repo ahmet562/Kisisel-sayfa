@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* İçeriği dikeyde ortala */ 
+    min-height: 10vh;
+}
+main {
+    padding: 20px;
+    max-width: 1200px; /* İçeriği maksimum genişlikte tut */
+    width: 100%; /* Genişliği tamamen kapla */
+}
+section {
+    margin-bottom: 30px;
+    max-width: 100%; /* Her bir bölümün maksimum genişlikte tut */
+    width: 100%; /* Genişliği tamamen kapla */
+    display: flex;
+    justify-content: space-between; /* İçeriği yatayda iki bölge arasında boşluk bırakacak şekilde düzenle */
+}
+.contact-info {
+    width: 60%; /* Sol taraftaki bölümün genişliğini ayarla */
+    background-color: #bcbac2;
+    padding: 20px;
+}
+.contact-form {
+    width: 60%; /* Sağ taraftaki bölümün genişliğini ayarla */
+    padding: 20px;
+}
+label {
+    margin-bottom: 10px;
+    display: block; /* Etiketleri blok element olarak ayarla */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #d9d9e0;
+    border-radius: 4px;
+    resize: none;
+    width: 100%; /* İnput alanlarını tam genişlikte yap */
+    box-sizing: border-box; /* Padding ve border dahil genişlik hesabı yap */
+}
+button {
+    padding: 10px 20px;
+    background-color: #061493;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Butonu tam genişlikte yap */
+    box-sizing: border-box; /* Padding ve border dahil genişlik hesabı yap */
+    display: inline-block; /* Butonu blok element olarak ayarla */
+}
+button:hover {
+    background-color: #45a049;
+}
+.contact-form label {
+    margin-top: 20px; /* Mesaj alanından önceki boşluğu ayarla */
+}
+.contact-form textarea {
+    margin-top: 10px; /* Textarea ile buton arasındaki boşluğu ayarla */
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/arka\ plan.jpg'); /* Arka plan resmi */
+    background-size: 1500px 820px; /* Arka plan resmi boyutu */
+    background-position: center;
+    height: 100vh;
+}
+.content h2 {
+    font-size: 28px;
+    color: #141414;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.content em {
+    font-style: italic;
+}
+.content {
+    margin: 150px; /* İçerik kutusunun kenar boşlukları */
+}
+
+.content-wrapper {
+    overflow: hidden; /* İçeriklerin dışarı taşmasını engelle */
+}
+
+.image {
+    float: left; /* Resmi sola hizala */
+    margin-right: 20px; /* Resmin sağ kenar boşluğu */
+}
+.text h2 {
+    text-align: center; /* Başlığı ortala */
+}
+.images {
+    float: right; /* Resmi sağa hizala */
+    margin-left: 8px; /* Resmin sol kenar boşluğu */
+}
+.texts h2 {
+    text-align: center; /* Başlığı ortala */
+}
+.container {
+    display: flex;
+    align-items: center; /* Yatay hizalamayı ortala */
+    justify-content: center; /* Dikey hizalamayı ortala */
+    flex-direction: column; /* İçerikleri dikey olarak sırala */
+  }
+  
+  .img-container {
+    margin-bottom: 20px; /* Resim ile içerik arasında bir boşluk bırak */
+  }
+  
+  .img-container img {
+    width: 200px; /* İhtiyacınıza göre resim boyutlarını ayarlayın */
+    height: auto;
+  }
+  
